@@ -21,9 +21,7 @@
   background-color: #f00;
 }
 
-body {
-  box-sizing: border-box;
-}
+
 /*
  * Sidebar
  */
@@ -97,4 +95,10 @@ body {
 .no-overflow{
   overflow-x: auto;
   
+}
+
+.deem:hover{
+  cursor: pointer;
+  background-color: #F0F2F5;
+
 }

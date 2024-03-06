@@ -14,6 +14,7 @@ import sidebarLayout from "./pages/sideBarLayout";
 import UserDashboard from "./pages/userDashboard";
 import searchPage from "./pages/searchPage";
 import schedulePage from "./pages/schedulePage";
+import Settings from "./pages/Settings";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="/user" element={<UserDashboard />} />
+            <Route path="/settings" element={<Settings/>} />
             <Route path="*" element={<NoPage />} />
           </Route>
           <Route path='/login' element={<LoginPage />} />
