@@ -63,23 +63,25 @@ function Sidebar() {
                     <div className="mt-2 text-center">
                         {/* <h2 style={{ fontFamily: 'Outfit', fontSize: '28px', fontWeight: '700', lineHeight: '33.6px', color: '#4001A8' }} className='ps-2 navbar-brand'>Swift Rails</h2> */}
                         <Link className="navbar-brand d-flex justify-content-center align-items-center" to='/user'>
-                            <img src={logo} alt="SwiftRails" width="75" />
+                            <img src={logo} alt="SwiftRails" width="40" />
+                            <h2 style={{ fontFamily: 'Outfit', fontSize: '30px', fontWeight: '700', lineHeight: '33.6px', color: '#4001A8' }} className='ps-2 navbar-brand'>Swift Rails</h2>
                         </Link>
+                        
                     </div>
 
                     <div class="position-sticky pt-2">
                         <ul class=" nav nav-pills flex-column border border-warning p-2">
-                            {navData.slice(0, 3).map((nav, index) => (<li class="nav-item  mt-1 mb-1 border border-info rounded" key={index}>
+                            {navData.slice(0, 3).map((nav, index) => (<li class="nav-item  mt-1 mb-1 rounded" key={index}>
 
-                                <NavLink className='nav-link rounded border border-danger pt-3 pb-3' to={nav.path}>{<nav.icon size={20} className='me-2' />} {nav.name}</NavLink>
+                                <NavLink className='nav-link rounded pt-3 pb-3' to={nav.path}>{<nav.icon size={20} className='me-2' />} {nav.name}</NavLink>
                             </li>))}
                         </ul>
                         <div className="">
 
                             <ul class=" nav nav-pills flex-column border border-warning p-2 ">
                                 {navData.slice(3, 5).map((nav, index) => (
-                                    <li class="nav-item  mt-1 mb-1 border border-info rounded" key={index}>
-                                        <NavLink className='nav-link rounded border border-danger pt-3 pb-3' to={nav.path}>
+                                    <li class="nav-item  mt-1 mb-1  rounded" key={index}>
+                                        <NavLink className='nav-link rounded pt-3 pb-3' to={nav.path}>
                                             {<nav.icon size={20} className='me-2' />} {nav.name}
                                         </NavLink>
                                     </li>
@@ -88,9 +90,9 @@ function Sidebar() {
 
 
                             <ul class="nav flex-column mb-2 profile-section">
-                                <div class="d-flex align-items-center p-3 border border-success">
+                                <div class="d-flex align-items-center p-3 ">
                                     <div class="flex-shrink-0">
-                                        <img src={profile} alt="profile" className='rounded-circle border border-danger' />
+                                        <img src={profile} alt="profile" className='rounded-circle border border-muted' />
                                     </div>
                                     <div class="flex-grow-1 d-flex align-items-center ms-1">
                                         <p className='me-3 mb-0'>Adeyemi Rofiat</p>

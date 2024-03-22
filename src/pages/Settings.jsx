@@ -20,7 +20,7 @@ function Settings() {
 
                     <ul className="list-group p-5 m-auto">
                         {settingsData.map((data, index) => (<li key={index} class="list-group-item  d-flex justify-content-between align-items-center">
-                            <div class="me-2">{<data.icon/>}</div>
+                            <div  class="me-2">{<data.icon/>}</div>
                             <div class="ms-2 me-auto">
                                 <div class="fw-bold">{data.name}</div>
                                 {data.description}
