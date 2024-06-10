@@ -46,7 +46,7 @@ function Sidebar() {
                             <img src={profile} alt="profile" className='rounded-circle border border-danger' />
                         </div>
                         <div class="flex-grow-1 d-flex align-items-center ms-1">
-                            <p className='me-3 mb-0'>Adeyemi Rofiat</p>
+                            <p className='me-3 mb-0'>John Doe</p>
                             <IoLogOutOutline />
                         </div>
                     </div>
@@ -95,7 +95,7 @@ function Sidebar() {
                                         <img src={profile} alt="profile" className='rounded-circle border border-muted' />
                                     </div>
                                     <div class="flex-grow-1 d-flex align-items-center ms-1">
-                                        <p className='me-3 mb-0'>Adeyemi Rofiat</p>
+                                        <p className='me-3 mb-0'>John Doe</p>
                                         <IoLogOutOutline size={25} />
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@ function Sidebar() {
                                 <img src={profile} alt="profile" className='rounded-circle border border-danger' />
                             </div>
                             <div class="flex-grow-1 d-flex align-items-center ms-3">
-                                <p className='me-3 mb-0'>Adeyemi Rofiat</p>
+                                <p className='me-3 mb-0'>John Doe</p>
                             </div>
                         </div>
 
